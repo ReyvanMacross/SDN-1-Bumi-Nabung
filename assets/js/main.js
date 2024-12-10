@@ -62,4 +62,14 @@ $('#galeri-slider').owlCarousel({
     navContainer: '#slider-tools-3',
 });
 
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener("click", function (e) {
+      e.preventDefault();
+      const target = document.querySelector(this.getAttribute("href"));
+      if (target) {
+        target.scrollIntoView({ behavior: "smooth" });
+      }
+    });
+  });
+
 });

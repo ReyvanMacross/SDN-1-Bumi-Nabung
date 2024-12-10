@@ -51,24 +51,12 @@
               <h3>Sekolah Terbaik Di Sukadana</h3>
             </div>
           </div>
-        </div>
-        <div class="col-md-4 pembungkus-searchbox">
-          <div class="searchbox">
-            <form method="get">
-              <div class="input-group">
-                <input class="form-control" type="text" name="cari" placeholder="Cari Sesuatu..." aria-label="Tombol Cari" aria-describedby="tombol-cari">
-                <div class="input-group-append">
-                  <button class="btn btn-utama" id="tombol-cari">Cari</button>
-                </div>
-              </div>
-            </form>
-          </div>
-        </div>
+        </div>  
       </div>
     </div>
   </header>
 
-  <!-- Section Menu -->
+  <!-- Navbar -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-biru">
     <div class="container">
       <button class="navbar-toggler" data-target="#my-nav" data-toggle="collapse" aria-controls="my-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -93,24 +81,16 @@
             <a class="nav-link" href="ekstrakulikuler.html" >Ekstrakulikuler </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" >Prestasi </a>
+            <a class="nav-link" href="prestasi.html" >Prestasi </a>
           </li>
-          <li class="nav-item dropdown">
-            <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" 
-            aria-haspopup="true"
-            aria-expanded="false" role="button">Berita</a>
-            <div class="dropdown-menu">
-              <a class="dropdown-item" href="#">Berita Sekolah</a>
-              <a class="dropdown-item" href="#">Pengumuman</a>
-              <a class="dropdown-item" href="#">Agenda</a>
-              <a class="dropdown-item" href="#">Kalender Akademik</a>
-            </div>
+          <li class="nav-item">
+            <a class="nav-link" href="berita.html" >Berita </a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="galeri.html" >Galeri  </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#" >Kontak </a>
+            <a class="nav-link scroll-to-footer" href="#footer-section" >Kontak </a>
           </li>
         </ul>
       </div>
@@ -251,11 +231,12 @@
         </div>
       </div>
             <div class="tombol-selengkapnya">
-                <a href="" class="btn btn-more">Lihat Prestasi Lainnya</a>
+                <a href="prestasi.html" class="btn btn-more">Lihat Prestasi Lainnya</a>
             </div>
         </div>
   </section>
 
+  <!-- Ekstrakulikuler -->
   <section id="ekstrakulikuler">
     <div class="container">
       <div class="section-title">
@@ -482,11 +463,13 @@
           </div>
       </div>
       <div class="tombol-selengkapnya">
-        <a href="" class="btn btn-more">Lihat Galeri Lainnya</a>
+        <a href="galeri.html" class="btn btn-more">Lihat Galeri Lainnya</a>
     </div>
       </div>
   </section>
 
+
+  <!-- SECTION BERITA -->
   <section id="berita">
     <div class="container">
       <div class="section-title">
@@ -631,12 +614,12 @@
         </div> <!-- ROW -->
       </div>
       <div class="tombol-selengkapnya">
-        <a href="" class="btn btn-more">Lihat Berita Lainnya</a>
+        <a href="berita.html" class="btn btn-more">Lihat Berita Lainnya</a>
       </div>
     </div> <!-- CONTAINER -->
-  </section> <!-- SECTION BERITA -->
+  </section> 
 
-  <footer>
+  <footer id="footer-section">
     <div class="container">
       <div class="row">
       <div class="col-md-5">
@@ -658,7 +641,7 @@
       </div>
       </div>
       <div class="col-md-4">
-        <div class="footer-col">
+        <div class="footer-col footer-section">
           <h2>Kontak Kami</h2>
           <p class="alamat">Jalan Pancuran Nomor 10, Sukadana, Lampung,
             Daerah istimewa Bumi Nabung
@@ -676,7 +659,6 @@
             <li><a href="profil.html">Profil visi&misi</a>
             <li><a href="fasilitas.html">Fasilitas</a></li>
             <li><a href="ekstrakulikuler.html">Ekstrakulikuler</a></li>
-            <li><a href="">Pendaftaran PPDB2024 <span>Info</span></a></li>
           </ul>
         </div>
       </div>
